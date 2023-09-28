@@ -11,23 +11,24 @@ public class Ejercicio71 {
 
    
     public static void main(String[] args) {
-        
+
         //solucion del curso
-        
-        Scanner entrada = new Scanner (System.in);
+
+        Scanner entrada = new Scanner(System.in);
         int horasTotales, semanas, dias, horas;
-        
+
         System.out.println("digite el numero de horas: ");
         horasTotales = entrada.nextInt();
-        
+
         semanas = horasTotales / 168;
-        dias = horasTotales%168/24;
-        horas = horasTotales%24;
-        
+        dias = horasTotales % 168 / 24;
+        horas = horasTotales % 24;
+
         System.out.println(semanas);
         System.out.println(dias);
         System.out.println(horas);
-       
+
+        //hola Abad
     }
     
 }
