@@ -24,9 +24,9 @@ public class Ejercicio71 {
         dias = horasTotales%168/24;
         horas = horasTotales%24;
         
-        System.out.println(semanas);
-        System.out.println(dias);
-        System.out.println(horas);
+        System.out.println("las semanas son: " +semanas);
+        System.out.println("los dias son: " + dias);
+        System.out.println("las horas son: " + horas);
        
     }
     
