@@ -21,6 +21,7 @@ public class Ejercicio71 {
         horasTotales = entrada.nextInt();
 
         semanas = horasTotales / 168;
+
         dias = horasTotales % 168 / 24;
         horas = horasTotales % 24;
 
@@ -28,7 +29,16 @@ public class Ejercicio71 {
         System.out.println(dias);
         System.out.println(horas);
 
-        //hola Abad
+
+        dias = horasTotales%168/24;
+        horas = horasTotales%24;
+        
+        System.out.println("semanas: "semanas);
+        System.out.println("dias: "dias);
+        System.out.println("horas: "horas);
+       
+       //Hola Esquer
+
     }
     
 }
