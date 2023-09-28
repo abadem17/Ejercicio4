@@ -28,6 +28,7 @@ public class Ejercicio71 {
         System.out.println("dias: "dias);
         System.out.println("horas: "horas);
        
+       //Hola Esquer
     }
     
 }
